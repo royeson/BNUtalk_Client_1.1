@@ -39,6 +39,21 @@
         android:textSize="23dp"
         android:id="@+id/textView6"
         android:layout_marginTop="56dp"
-        android:layout_below="@+id/imageView5"
-        android:layout_alignLeft="@+id/imageView" />
+        android:layout_centerHorizontal="true" />
+    <Button
+        android:layout_width="35dp"
+        android:layout_height="25dp"
+        android:id="@+id/back"
+        android:background="@drawable/back"
+        android:layout_below="@+id/textView6"
+        android:layout_alignLeft="@+id/imageView5"
+        android:layout_alignStart="@+id/imageView5" />
+    <Button
+        android:layout_width="35dp"
+        android:layout_height="25dp"
+        android:id="@+id/send_message"
+        android:background="@drawable/send_message"
+        android:layout_alignTop="@+id/back"
+        android:layout_alignRight="@+id/imageView5"
+        android:layout_alignEnd="@+id/imageView5" />
 </RelativeLayout>
